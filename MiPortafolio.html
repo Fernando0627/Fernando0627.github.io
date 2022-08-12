@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>LFGV</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li> <a href="#inicio" class="selecionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li> <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li> <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li> <a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li> <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- ICONOS DEL MENU RESPONSIVE -->
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- ICONOS DE REDES -->
+
+                    <div class="redes">
+                        <a target="_blank" href="https://instagram.com/fernandoguerrero12?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/feed/?trk=404_page"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://wa.me/573153230148/?text=urlencodedtext"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2> <span>Luis Fernando Guerrero Valencia</span></h2>
+                <h2>Desarrollador Front End</h2>
+                <p class="descripcion">Estudiante de ingeniería de sistemas cursando 8
+                    semestre con conocimiento básicos de programación
+                    (java, HTML, Css Php, MySQL, Conocimineto basico de
+                    Laravel) infraestructura de It, manejo Active Directory,
+                    encriptación de equipos con la consola Mcafee,
+                    orientado a la resolución de problemas y trabajo bajo
+                    presión, responsable, solidario y con servicio al cliente</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI-->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="imagenes/img.luisfernando.jfif" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Luis Fernando Guerrero valencia</span></h2>
+            <h3>Desarrollador Front End</h3>
+            <p>Soy disciplinado, responsable y comprometido con mis
+                funciones. A lo largo de mi trayectoria estudiantil he
+                desarrollado habilidades esenciales sobre todo,
+                pensamiento estratégico, resolución de problemas y
+                toma de decisiones.</p>
+            <p>Deseo sumar estas (y otras) habilidades al equipo de
+                ingenieros, en una compañía que por su filosofía y
+                reputación impecable que le caracteriza.
+                Agradezco su tiempo y le invito a leer mi curriculum
+                donde podrá apreciar otros datos relevantes sobre mi. <br>
+                Será un gusto asistir a una entrevista.</p>
+            <a target="_blank" href="CVpdf/HOJA DE VIDA LUIS FERNANDO GUERRERO.pdf">Descargar CV</a>
+        </div>
+        </div>
+    </section>
+
+    <!--SECCION SERVICIOS-->
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4><img src="imagenes/png-clipart-logo-html5-markup-language-design-angle-text-thumbnail.png" alt=""
+                        width="200" height="200"></h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p></p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4><img src="imagenes/javascript.png" alt="" width="200" height="200"></h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p></p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4><img src="imagenes/mysql-vector1.jpg" alt="" width="200" height="200"></h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4><img src="imagenes/250px-CSS3_logo_and_wordmark.svg.png" alt="" width="200" height="200"></h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-java"></i></span>
+                <h4><img src="imagenes/java-eps-vector-logo.png" alt="" width="200" height="200"></h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p></p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+
+        <div class="skill">
+            <div class="info" >
+                <p style="color:white ;"><span class="lista"></span>Html5</p>
+                <span style="color:white ; class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1" style="width:70%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p style="color:white ;"><span class="lista"></span>Javascript</p>
+                <span style="color:white ;" class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2" style="width:70%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p style="color:white ;"><span class="lista"></span>MySQL</p>
+                <span style="color:white ;" class="porcentaje">55%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-progreso3" style="width:55%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p style="color:white ;"><span class="lista"></span>CSS3</p>
+                <span style="color:white ;" class="porcentaje">65%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-progreso4" style="width:65%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p style="color:white ;"><span class="lista"></span>Java</p>
+                <span style="color:white ;" class="porcentaje">45%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso5" style="width:45%"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- SECCION PORTAFOLIO -->
+
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/proyecto3.jpg" alt="center" width="1100" height="800">
+                <div class="info">
+                    <h4>Proyecto con Html5, CSS, JavaScript.</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/proyecto4.jpg" alt="" width="1100" height="800">
+                <div class="info">
+                    <h4>Proyecto con Html5, CSS, JavaScript.</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form target="_blank" action="https://formsubmit.co/fernandoguerrero12@icloud.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje...."
+                        class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+           
+
+        </div>
+    </section>
+    <!-- SECCVION FOOTER -->
+
+    <footer>
+        <p>Todos los Derechos Reservados - 2022</p>
+        <div class="redes">
+            <a target="_blank" href="https://instagram.com/fernandoguerrero12?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/?trk=404_page"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://wa.me/573153230148/?text=urlencodedtext>"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
